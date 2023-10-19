@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "/Users/janluca/Projects/git/Masterthesis/MATLAB/simulink images"
+pdfcrop --margin '54' Simulink.pdf Simulink.pdf
+pdfcrop --margin '54' Measurements.pdf Measurements.pdf
+pdfcrop --margin '54' converter.pdf converter.pdf
